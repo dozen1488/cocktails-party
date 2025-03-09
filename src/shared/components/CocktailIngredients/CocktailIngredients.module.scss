@@ -1,0 +1,25 @@
+.ingredients {
+  h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    color: var(--text-primary);
+  }
+}
+
+.ingredientsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+}
+
+.ingredient {
+  display: flex;
+  gap: 8px;
+  color: var(--text-secondary);
+
+  .measure {
+    color: var(--text-primary);
+    font-weight: 500;
+    min-width: 80px;
+  }
+} 
