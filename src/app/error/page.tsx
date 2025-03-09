@@ -7,7 +7,7 @@ export default function ErrorPage() {
     <div className={styles.container}>
       <div className={styles.content}>
         <h1>Oops! Something went wrong</h1>
-        <p>We couldn't find what you were looking for.</p>
+        <p>We couldn&apos;t find what you were looking for.</p>
       </div>
     </div>
   );
